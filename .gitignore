@@ -1,9 +1,19 @@
+# Environment
 venv/
+*.env
+
+# Python
 __pycache__/
-.vscode/
 *.pyc
 *.pyo
 *.pyd
+
+# IDE
+.vscode/
+
+# Data
+raw_data/
+
+# Databases
 *.db
 *.sqlite3
-*.env
